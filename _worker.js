@@ -3,7 +3,7 @@ import { connect } from 'cloudflare:sockets';
 const 小可爱文字解码器 = new TextDecoder('utf-8', { fatal: true });
 const 关门原因编码器 = new TextEncoder();
 const 关门原因解码器 = new TextDecoder();
-const 我的小甜甜身份证 = '88888888-8888-8888-8888-888888888888';  //修改为你的UUID
+const 我的小甜甜身份证 = '28f9e700-1ad7-411d-b25e-97ffea0daa30';  //修改为你的UUID
 const 身份证字节 = ((uuid) => {
   const hex = uuid.replace(/-/g, '');
   const arr = new Uint8Array(16);
